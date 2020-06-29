@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Alarm Clock</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container">
+    <div class="clock-wrap">
+      <div class="displays mode-display">24hr clock</div>
+      <div class="displays ampm-display handle">am</div>
+      <div class="clock-display">
+        <ul class="control-hrs handle">
+          <li>+</li>
+          <li>-</li>
+        </ul>
+        <div class="hrs nums">00</div><span class="nums">:</span>
+        <div class="mins nums">00</div>
+        <ul class="control-mins handle">
+          <li>+</li>
+          <li>-</li>
+        </ul>
+      </div>
+      <div class="displays alarm-display">no alarm set</div>
+    </div>
+    <div class="btn-wrap">
+      <div class="alarm">set alarm</div>
+      <div class="mode">mode</div>
+    </div>
+    <audio id="myAudio">
+      <source src="la.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <div id ="myDiv">
+      <label>Choose Alarm Sound:</label>
+      <br>
+      <select id="mySelect"></select>
+        </div>	
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
